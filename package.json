@@ -1,0 +1,34 @@
+{
+  "name": "validate-email-dns",
+  "version": "0.1.0",
+  "description": "Validates email using DNS query and RegExp",
+  "main": "lib/validate.js",
+  "scripts": {
+    "test": "mocha --harmony"
+  },
+  "keywords": [
+    "email",
+    "valid",
+    "validator",
+    "dns",
+    "regexp"
+  ],
+  "author": "Michał Adamski",
+  "license": "ISC",
+  "devDependencies": {
+    "co": "^4.5.*",
+    "mocha": "^2.2.*"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meehow/node-validate-email-dns.git"
+  },
+  "bugs": {
+    "url": "https://github.com/meehow/node-validate-email-dns/issues"
+  },
+  "homepage": "https://github.com/meehow/node-validate-email-dns#readme"
+}
