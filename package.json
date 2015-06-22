@@ -1,6 +1,6 @@
 {
   "name": "validate-email-dns",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Validates email using DNS query and RegExp",
   "main": "lib/validate.js",
   "scripts": {
@@ -16,8 +16,8 @@
   "author": "Michał Adamski",
   "license": "ISC",
   "devDependencies": {
-    "co": "^4.5.*",
-    "mocha": "^2.2.*"
+    "co": "^4.x.x",
+    "mocha": "^2.x.x"
   },
   "directories": {
     "test": "test"
