@@ -16,7 +16,7 @@
   "author": "Michał Adamski",
   "license": "ISC",
   "devDependencies": {
-    "co": "^4.x.x",
+    "co-mocha": "^1.x.x",
     "mocha": "^2.x.x"
   },
   "directories": {
