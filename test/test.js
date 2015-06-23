@@ -16,8 +16,20 @@ describe('Email validation', function() {
     assert(yield validate('hostmaster@example.com'));
   });
 
+  it('succeeds on gmail address with 6 characters username', function * () {
+    assert(yield validate('asdasd@gmail.com'));
+  });
+
+  it('succeeds on yahoo address with 4 characters username', function * () {
+    assert(yield validate('four@yahoo.com'));
+  });
+
   it('fails on gmail address with less than 6 characters username', function * () {
     assert.equal(yield validate('asd+asd@googlemail.com'), false);
+  });
+
+  it('fails on yahoo address with less than 4 characters username', function * () {
+    assert.equal(yield validate('asd@yahoo.de'), false);
   });
 
   it('fails on non-existing domain', function * () {
