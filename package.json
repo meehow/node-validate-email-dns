@@ -1,6 +1,6 @@
 {
   "name": "validate-email-dns",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Validates email using DNS query and RegExp",
   "main": "lib/validate.js",
   "scripts": {
