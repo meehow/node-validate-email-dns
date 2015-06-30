@@ -1,3 +1,5 @@
+[![Code Climate](https://codeclimate.com/github/meehow/node-validate-email-dns/badges/gpa.svg)](https://codeclimate.com/github/meehow/node-validate-email-dns)
+
 Installation
 ------------
 
