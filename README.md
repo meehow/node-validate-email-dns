@@ -1,4 +1,5 @@
 [![Code Climate](https://codeclimate.com/github/meehow/node-validate-email-dns/badges/gpa.svg)](https://codeclimate.com/github/meehow/node-validate-email-dns)
+[![Build Status](https://travis-ci.org/meehow/node-validate-email-dns.svg)](https://travis-ci.org/meehow/node-validate-email-dns)
 
 Installation
 ------------
